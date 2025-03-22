@@ -28,7 +28,7 @@ const Navbar = async () => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full z-50 border-b ">
+    <nav className="fixed top-0 w-full z-50 border-b bg:bg-primary/90 backdrop-blur-md">
       <MaxWidthWrapper>
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center">
