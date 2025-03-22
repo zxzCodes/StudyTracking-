@@ -13,7 +13,7 @@ export async function auth(
   const { getUser } = getKindeServerSession();
   const user = await getUser();
 
- 
+
 
   if (!user || !user.id || !user.email) {
     if (!config.required) return null;
@@ -44,7 +44,7 @@ export async function auth(
       },
     });
 
-   
+ 
 
 
 
